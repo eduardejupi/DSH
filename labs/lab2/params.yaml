@@ -1,0 +1,30 @@
+imageType:
+  Original: {}
+
+featureClass:
+  shape: []
+  firstorder: []
+  glcm: []
+  glrlm: []
+  glszm: []
+  gldm: []
+  ngtdm: []
+
+setting:
+  # Discretizzazione (scegline UNA: lascia binWidth oppure commentalo e usa binCount)
+  binWidth: 10
+
+
+  # Re-segmentation: esclude HU atipici nel ROI (modifica se necessario) (abbiamo preso primo e novantesimo percentile)
+  resegmentRange: [-79, 149]
+
+  # Texture: distanza dei vicini
+  distances: [1]
+  symmetricalGLCM: true
+
+  # Estrazione 3D sulla ROI con label 1
+  force2D: false
+  label: 1
+
+  # (Opzionale) metadati extra nell’output
+  additionalInfo: true

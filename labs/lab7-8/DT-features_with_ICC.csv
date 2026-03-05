@@ -1,0 +1,12 @@
+selected_features,"ICC(3,1)"
+original_shape_SurfaceVolumeRatio,0.9258163379724608
+original_shape_Maximum2DDiameterSlice,0.848850559165821
+original_glcm_Correlation,0.9726926755676776
+original_glszm_SmallAreaLowGrayLevelEmphasis,0.8379185555892195
+original_ngtdm_Coarseness,0.9412054361471538
+original_shape_Maximum3DDiameter,0.80578713833923
+original_shape_LeastAxisLength,0.8286478895305082
+original_shape_Flatness,0.8109440542496058
+original_glrlm_LongRunLowGrayLevelEmphasis,0.81431007538056
+original_firstorder_MeanAbsoluteDeviation,0.9875281531946756
+original_glrlm_GrayLevelVariance,0.9879536554396328
